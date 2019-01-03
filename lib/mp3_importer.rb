@@ -1,4 +1,4 @@
 class MP3Importer
-  attr_accessor 
+  attr_accessor :files, :path
   
 end
