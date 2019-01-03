@@ -9,9 +9,9 @@ class MP3Importer
      @file_array = Dir.entries(@path).select{|file| file.include?(".mp3")}
    end
  
-    def import
+  def import
      self.files
      @file_array.each{|song| Song.new_by_filename(song)}
-   end
+  end
   
 end
