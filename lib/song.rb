@@ -18,9 +18,3 @@ end
 
 
 
-
-    song = self.new(song_name)
-    artist = Artist.find_or_create_by_name(artist_name)
-    artist.add_song(song)
-  end
-end
